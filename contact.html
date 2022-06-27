@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICT DuaCikbar - Contact</title>
+  <!-- css -->
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="dist/output.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Domine:wght@700&family=Lato&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans&family=Roboto&family=Rubik:ital,wght@0,400;0,600;0,700;1,400&family=Tiro+Devanagari+Hindi&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon (1).ico" type="image/x-icon">
+  <script>
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  </script>
+</head>
+
+<body class="bg-slateMuda dark:bg-neutralTua">
+  <!-- Start Header -->
+  <header class="navbar-fixed">
+    <div class="navbar relative z-10">
+      <div class="container">
+        <div class="py-6 px-5 lg:px-14 flex justify-between">
+          <a href="index.html">
+            <span class="text-slateTua dark:text-slate-50 text-xl font-rubik font-bold">ict</span>
+            <span class="text-emerald dark:text-emerald text-xl font-rubik font-bold">duacikbar</span>
+          </a>
+          <div id="hamburger" class="lg:hidden cursor-pointer w-[30px] h-[22px] flex flex-col justify-between">
+            <div class="inline-block h-[3px] w-full rounded-full bg-slateTua dark:bg-slateMuda"></div>
+            <div class="inline-block h-[3px] w-full rounded-full bg-slateTua dark:bg-slateMuda"></div>
+            <div class="inline-block h-[3px] w-[70%] rounded-full bg-slateTua dark:bg-slateMuda self-end">
+            </div>
+          </div>
+          <div class="hidden lg:flex w-1/2 lg:justify-between lg:items-center">
+            <a href="index.html"
+              class="text-slateTua dark:text-slateMuda hover:text-emerald dark:hover:text-emerald font-montserrat transition-all duration-300 ease-in">Beranda</a>
+            <a href="about.html"
+              class="text-slateTua dark:text-slateMuda hover:text-emerald dark:hover:text-emerald font-montserrat transition-all duration-300 ease-in">About</a>
+            <a href="contact.html"
+              class="text-slateTua dark:text-slateMuda hover:text-emerald dark:hover:text-emerald font-montserrat transition-all duration-300 ease-in">Contact</a>
+            <span class="flex items-center ">
+              <span class="pr-2 font-montserrat text-slateTua dark:text-slateMuda">Light</span>
+              <input type="checkbox" class="hidden" id="dark-toggle">
+              <label for="dark-toggle"
+                class="cursor-pointer flex items-center h-5 w-10 rounded-xl bg-slateParuhbaya dark:bg-slateMuda p-1">
+                <span
+                  class="circle-toggle inline-block h-4 w-4 bg-white rounded-full transition-all duration-200 ease-in-out"></span>
+              </label>
+              <span class="pl-2 font-montserrat text-slateTua dark:text-slateMuda">Dark</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="navmenu" class="lg:hidden navmenu-naik bg-slateMuda navbar transition-all duration-500 ease-in-out">
+      <a href="index.html"
+        class="navlist lg:inline block text-center text-slateTua dark:text-slateMuda dark:hover:text-emerald hover:text-emerald font-montserrat py-3 transition-all duration-200 ease-in border-b-[1px] border-slate-300 dark:border-zinc-900">Beranda</a>
+      <a href="about.html"
+        class="navlist lg:inline block text-center text-slateTua dark:text-slateMuda dark:hover:text-emerald hover:text-emerald font-montserrat py-3 transition-all duration-200 ease-in border-b-[1px] border-slate-300 dark:border-zinc-900">About</a>
+      <a href="contact.html"
+        class="navlist lg:inline block text-center text-slateTua dark:text-slateMuda dark:hover:text-emerald hover:text-emerald font-montserrat py-3 transition-all duration-200 ease-in border-b-[1px] border-slate-300 dark:border-zinc-900">Contact</a>
+      <span class="flex items-center py-3">
+        <div class="flex mx-auto">
+          <span class="pr-2 font-montserrat text-slateTua dark:text-slateMuda">Light</span>
+          <input type="checkbox" class="hidden" id="dark-toggle-2" />
+          <label for="dark-toggle-2"
+            class="cursor-pointer flex items-center h-5 w-10 rounded-xl bg-slateParuhbaya dark:bg-neutralMuda p-1">
+            <span
+              class="circle-toggle inline-block h-4 w-4 bg-white rounded-full transition-all duration-200 ease-in-out"></span>
+          </label>
+          <span class="pl-2 text-montserrat text-slateTua dark:text-slateMuda">Dark</span>
+        </div>
+      </span>
+    </div>
+  </header>
+  <!-- Start Header -->
+
+  <!-- Start Contact Section -->
+  <section class="pt-32 pb-32">
+    <div class="container ">
+      <div class="px-5 lg:px-14 ">
+        <h2 class="text-3xl font-rubik font-bold pb-16 dark:text-slateMuda">FORM PENDAFTARAN ICT</h2>
+        <form action="">
+          <div class="lg:flex lg:justify-between lg:gap-12">
+            <section class="lg:w-1/2">
+              <div class="input-container pb-4 ">
+                <label for="nama-lengkap" class="dark:text-slateMuda">Nama Lengkap</label>
+                <input type="text" class="dark:bg-neutralMuda" id="nama-lengkap" required>
+              </div>
+              <div class="input-container pb-4">
+                <label class="dark:text-slateMuda" for="nama-panggilan">Nama Panggilan</label>
+                <input type="text" class="dark:bg-neutralMuda" id="nama-panggilan" required>
+              </div>
+              <div class="input-container pb-4">
+                <label class="dark:text-slateMuda" for="kelas">Kelas</label>
+                <input type="text" class="dark:bg-neutralMuda" id="kelas" required>
+              </div>
+              <div class="input-container pb-4">
+                <label class="dark:text-slateMuda" for="jurusan">Jurusan</label>
+                <input type="text" class="dark:bg-neutralMuda" id="jurusan" required>
+              </div>
+            </section>
+            <section class="lg:w-1/2">
+              <div class="input-container pb-4 ">
+                <label class="dark:text-slateMuda" for="address">Divisi</label>
+                <div class="select-dropdown ">
+                  <select class="dark:bg-neutralMuda w-full">
+                    <option selected disabled>-- Silahkan Pilih Divisi --</option>
+                    <option value="Option 1">Photograpy</option>
+                    <option value="Option 2">Programming</option>
+                    <option value="Option 3">Desain Komunikasi Visual</option>
+                    <option value="Option 3">Robotik</option>
+                  </select>
+                </div>
+              </div>
+              <div class="input-container pb-4">
+                <label class="dark:text-slateMuda" for="wa">Nomor Telephone</label>
+                <input class="dark:bg-neutralMuda" id="wa" type="text" required>
+              </div>
+              <div class="input-container pb-4">
+                <label class="dark:text-slateMuda" for="comments">Alasan Masuk Ekstrakulikuler ICT</label>
+                <textarea class="dark:bg-neutralMuda" name="comments" id="comments" required></textarea>
+              </div>
+              <div class="send-container lg:flex lg:flex-row-reverse">
+                <input type="submit" value="SUBMIT" onclick="return true" />
+              </div>
+            </section>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Start Footer Section -->
+  <section class="bg-emeraldTua">
+    <div class="container">
+      <div
+        class="pt-20 bg-emerald-900 relative px-5 lg:px-14 pb-16 flex flex-col md:flex-row md:justify-between lg:justify-evenly">
+        <div class="pb-7">
+          <div class="text-3xl font-rubik text-slate-300 font-bold pb-3">Navigate</div>
+          <ul>
+            <a class="text-slate-300 pb-1 block" href="index.html">Home</a>
+            <a class="text-slate-300 pb-1 block" href="about.html">About</a>
+            <a class="text-slate-300 pb-1 block" href="contact.html">Contact</a>
+          </ul>
+        </div>
+        <div class="pb-7">
+          <div class="text-3xl font-rubik text-slate-300 font-bold pb-3">Contact</div>
+          <ul>
+            <li class="pb-4 font-montserrat text-slate-300"><i
+                class='text-slate-300 pr-3 text-2xl bx bxs-envelope'></i>info@ict.com</li>
+            <li class="pb-4 font-montserrat text-slate-300"><i
+                class='text-slate-300 pr-3 text-2xl bx bxs-location-plus'></i>Indonesia</li>
+          </ul>
+        </div>
+        <div class="">
+          <div class="text-3xl font-rubik text-slate-300 font-bold pb-3">Social</div>
+          <ul class="flex">
+            <li class="group pr-4"><a href="https://www.instagram.com/_dzikrialan" target="_blank"><i
+                  class='bx bxl-instagram text-slate-300 text-3xl p-[5px] rounded-full transition-all duration-500 ease-in-out '></i></a>
+            </li>
+            <li class="group pr-4"><a href="https://www.facebook.com/dzikrialan.ramadhan" target="_blank"><i
+                  class='bx bxl-discord text-slate-300 text-3xl p-[5px] rounded-full transition-all duration-500 ease-in-out '></i></a>
+            </li>
+            <li class="group pr-4"><a href="www.instagram.com"><i
+                  class='bx bxl-youtube text-slate-300 text-3xl p-[5px] rounded-full transition-all duration-500 ease-in-out '></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Footer Section -->
+
+  <!-- Start ToTop Section -->
+  <div class="fixed bottom-3 right-0 w-full">
+    <div class="container">
+      <div class="w-full px-5 lg:px-14 flex justify-end">
+        <a id="to-Top" href="#home" class="w-12 h-12 bg-emerald rounded-full hidden justify-center items-center">
+          <i class='bx bx-up-arrow-alt text-slateMuda text-3xl'></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End ToTop Section -->
+
+  <!-- End ToTop Section -->
+  <script src="dist/script/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,332 @@
+<div class="container px-8 lg:px-14 lg:flex lg:flex-col lg:justify-center xl:px-20">
+    <div class="border-2 border-slate-400 inline-block w-[370px] font-bold text-3xl text-slate-50 pb-4">Pilih
+        divisi mu sekarang!</div>
+    <div
+        class="border-2 border-slate-400 inline-block lg:w-[470px] text-center font-montserrat text-slate-50 leading-6 text-sm pb-20">
+        Di ICT SMKN 2 Cikarang Barat ada 4
+        divisi
+        yang
+        akan
+        meningkatkan
+        produktivitas
+        mu di bidang technology
+    </div>
+    <div class="p-4 flex justify-center items-center pb-16">
+        <div class="relative pl-10 flex flex-col justify-center w-[615px] h-[200px]  pt-4 bg-neutral-800">
+            <div>
+                <h1 class="absolute -top-[42px] left-[1px] text-8xl font-bold text-slate-100">1</h1>
+                <h1 class="absolute -top-[50px] left-1 text-8xl font-bold text-emerald-600">1</h1>
+            </div>
+            <div>
+                <h1
+                    class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald-600 font-rubik tracking-widest">
+                    Desain
+                    Grafis
+                </h1>
+                <h1 class="absolute top-2 left-[73px]  text-4xl font-bold text-slate-50 font-rubik tracking-widest">
+                    Desain Grafis
+                </h1>
+            </div>
+            <p class="w-[90%] font-montserrat text-sm text-slate-100 pb-4">Disini kamu akan
+                belajar
+                tentang konsep, bentuk
+                dan
+                komposisi
+                suatu karya komunikasi visual
+                berupa gambar, garis maupun element grafis lainnya</p>
+            <div class="absolute p-2 bottom-3 right-10 bg-emerald-600 text-slate-50 font-roboto">Lihat
+                selengkapnya</div>
+        </div>
+    </div>
+    <div class="p-4 flex justify-center items-center pb-16">
+        <div class="relative pl-10 flex flex-col justify-center w-[615px] h-[200px]  pt-4 bg-neutral-800">
+            <div>
+                <h1 class="absolute -top-[42px] left-[1px] text-8xl font-bold text-slate-100">2</h1>
+                <h1 class="absolute -top-[50px] left-1 text-8xl font-bold text-emerald-600">2</h1>
+            </div>
+            <div>
+                <h1
+                    class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald-600 font-rubik tracking-widest">
+                    Photography
+                </h1>
+                <h1 class="absolute top-2 left-[73px]  text-4xl font-bold text-slate-50 font-rubik tracking-widest">
+                    Photography
+                </h1>
+            </div>
+            <p class="w-[90%] font-montserrat text-sm text-slate-100 pb-4">Disini Kamu akan belajar
+                tentang
+                fundamental design dan berkenalan dengan setting aperture, shutter
+                speed, fokus, serta berbagai hal operasional lain.</p>
+            <div class="absolute p-2 bottom-3 right-10 bg-emerald-600 text-slate-50 font-roboto">Lihat
+                selengkapnya</div>
+        </div>
+    </div>
+    <div class="p-4 flex justify-center items-center pb-16">
+        <div class="relative pl-10 flex flex-col justify-center w-[615px] h-[200px]  pt-4 bg-neutral-800">
+            <div>
+                <h1 class="absolute -top-[42px] left-[1px] text-8xl font-bold text-slate-100">3</h1>
+                <h1 class="absolute -top-[50px] left-1 text-8xl font-bold text-emerald-600">3</h1>
+            </div>
+            <div>
+                <h1
+                    class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald-600 font-rubik tracking-widest">
+                    Programming
+                </h1>
+                <h1 class="absolute top-2 left-[73px]  text-4xl font-bold text-slate-50 font-rubik tracking-widest">
+                    Programming
+                </h1>
+            </div>
+            <p class="w-[90%] font-montserrat text-sm text-slate-100 pb-4">Disini kamu akan
+                belajar
+                pemrograman dasar untuk pemula dan dilanjut dengan belajar tentang web programming</p>
+            <div class="absolute p-2 bottom-3 right-10 bg-emerald-600 text-slate-50 font-roboto">Lihat
+                selengkapnya</div>
+        </div>
+    </div>
+    <div class="p-4 flex justify-center items-center pb-16">
+        <div class="relative pl-10 flex flex-col justify-center w-[615px] h-[200px]  pt-4 bg-neutral-800">
+            <div>
+                <h1 class="absolute -top-[42px] left-[1px] text-8xl font-bold text-slate-100">4</h1>
+                <h1 class="absolute -top-[50px] left-1 text-8xl font-bold text-emerald-600">4</h1>
+            </div>
+            <div>
+                <h1
+                    class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald-600 font-rubik tracking-widest">
+                    Videography
+                </h1>
+                <h1 class="absolute top-2 left-[73px]  text-4xl font-bold text-slate-50 font-rubik tracking-widest">
+                    Videography
+                </h1>
+            </div>
+            <p class="w-[90%] font-montserrat text-sm text-slate-100 pb-4">
+                Disini kamu akan belajar tentang proses pra-produksi, teknik pengambilan gambar, hingga
+                proses
+                editing.</p>
+            <div class="absolute p-2 bottom-3 right-10 bg-emerald-600 text-slate-50 font-roboto">Lihat
+                selengkapnya</div>
+        </div>
+    </div>
+</div>
+
+
+<!-- dibawah adalah script about, divisi, contact  -->
+<!-- Start About Section -->
+<section class="pb-32">
+    <div class="container px-8 lg:px-14 lg:flex lg:flex-wrap lg:flex-row-reverse">
+        <div class="lg:w-1/2 lg:pl-10">
+            <div class="text-3xl font-rubik text-slate-50 font-extrabold">About ICT</div>
+            <div class="pb-20">
+                <p class="text-sm text-neutral-300 pt-4 font-montserrat leading-6">
+                    Berdiri sejak 2007, ICT mempunyai VISI dan MISI untuk menerbitkan talenta yang kompetitif di
+                    bidang teknologi. sudah lebih dari 100 orang yang sudah menjadi alumni ICT di SMKN 2 Cikarang
+                    Barat
+            </div>
+        </div>
+        <div class="lg:w-1/2">
+            <div class="flex justify-center items-center">
+                <div class="relative flex justify-center w-[615px] h-[340px]  pt-4 bg-neutral-800">
+                    <img class="absolute -top-20 sm:scale-110" src="vr-removebgg.png" alt="">
+                    <div class="absolute bottom-0 w-[90%] sm:w-[80%] h-[60px] flex justify-center">
+                        <span
+                            class="absolute -top-[30px] left-0 inline-block px-5 py-2 md:text-6xl md:top-[10px]md:left-6 font-rubik text-5xl font-bold bg-neutral-900 text-slate-50 lg:text-4xl md:left-7 md:-top-[50px] lg:-top-[10px] lg:left-5 xl:left-7 xl:text-5xl xl:-top-[30px]">Miss</span>
+                        <div
+                            class="absolute left-8 -bottom-[30px] px-4 py-2 font-rubik text-5xl md:text-6xl md:-bottom-[30px] md:left-14 xl:text-5xl lg:text-4xl lg:-bottom-[30px] lg:left-16 font-bold bg-neutral-900 text-emerald-800">
+                            The Futures</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Start About Section -->
+
+<!-- Start Division Section -->
+<section class="pb-32">
+    <div class="container px-8">
+        <div class="w-full lg:flex lg:justify-center lg:flex-col">
+            <div class="lg:text-center text-bold text-3xl font-bold text-slate-100">
+                Pilih divisimu sekarang!
+            </div>
+            <div class="pb-16 lg:text-center lg:w-1/2 lg:self-center text-sm font-montserrat text-slate-100 pt-4">Di
+                ICT
+                SMKN 2 Cikarang
+                Barat ada
+                4
+                divisi
+                yang
+                akan
+                meningkatkan
+                produktivitas
+                mu di bidang technology</div>
+            <div class="lg:flex">
+                <div
+                    class="relative md:mx-auto mb-16 pl-10 flex justify-self-center flex-col justify-center max-w-[615px] lg:max-w-[430px] xl:max-w-[520px] h-[200px]  pt-4 bg-neutral-800">
+                    <div>
+                        <h1 class="absolute -top-[42px] left-[1px] text-8xl font-bold text-slate-100">1</h1>
+                        <h1 class="absolute -top-[50px] left-1 text-8xl font-bold text-emerald-600">1</h1>
+                    </div>
+                    <div>
+                        <h1
+                            class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald-600 font-rubik tracking-widest">
+                            Desain Grafis
+                        </h1>
+                        <h1
+                            class="absolute top-2 left-[73px]  text-4xl font-bold text-slate-50 font-rubik tracking-widest">
+                            Desain Grafis
+                        </h1>
+                    </div>
+                    <p class="w-[90%] font-montserrat text-sm text-slate-100 pb-4">
+                        Disini kamu belajar
+                        tentang konsep, bentuk
+                        dan
+                        komposisi
+                        suatu karya komunikasi visual
+                        berupa gambar, garis maupun element grafis lainnya.</p>
+                    <div class="absolute p-2 bottom-3 right-10 bg-emerald-600 text-slate-50 font-roboto">Lihat
+                        selengkapnya</div>
+                </div>
+                <div
+                    class="relative md:mx-auto pl-10 mb-16 flex flex-col justify-center max-w-[615px] lg:max-w-[430px] xl:max-w-[520px] h-[200px]  pt-4 bg-neutral-800">
+                    <div>
+                        <h1 class="absolute -top-[42px] left-[1px] text-8xl font-bold text-slate-100">2</h1>
+                        <h1 class="absolute -top-[50px] left-1 text-8xl font-bold text-emerald-600">2</h1>
+                    </div>
+                    <div>
+                        <h1
+                            class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald-600 font-rubik tracking-widest">
+                            Photography
+                        </h1>
+                        <h1
+                            class="absolute top-2 left-[73px]  text-4xl font-bold text-slate-50 font-rubik tracking-widest">
+                            Photography
+                        </h1>
+                    </div>
+                    <p class="w-[90%] font-montserrat text-sm text-slate-100 pb-4">
+                        Disini kamu tentang
+                        fundamental design dan berkenalan dengan setting aperture, shutter
+                        speed, fokus, serta berbagai hal operasional lain.</p>
+                    <div class="absolute p-2 bottom-3 right-10 bg-emerald-600 text-slate-50 font-roboto">Lihat
+                        selengkapnya</div>
+                </div>
+            </div>
+            <div class="lg:flex">
+                <div
+                    class="relative md:mx-auto pl-10 mb-16 flex flex-col justify-center max-w-[615px] lg:max-w-[430px] xl:max-w-[520px] h-[200px]  pt-4 bg-neutral-800">
+                    <div>
+                        <h1 class="absolute -top-[42px] left-[1px] text-8xl font-bold text-slate-100">3</h1>
+                        <h1 class="absolute -top-[50px] left-1 text-8xl font-bold text-emerald-600">3</h1>
+                    </div>
+                    <div>
+                        <h1
+                            class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald-600 font-rubik tracking-widest">
+                            Programming
+                        </h1>
+                        <h1
+                            class="absolute top-2 left-[73px]  text-4xl font-bold text-slate-50 font-rubik tracking-widest">
+                            Programming
+                        </h1>
+                    </div>
+                    <p class="w-[90%] font-montserrat text-sm text-slate-100 pb-4">
+                        belajar
+                        pemrograman dasar untuk pemula dan dilanjut dengan belajar tentang web programming</p>
+                    <div class="absolute p-2 bottom-3 right-10 bg-emerald-600 text-slate-50 font-roboto">Lihat
+                        selengkapnya</div>
+                </div>
+                <div
+                    class="relative md:mx-auto pl-10 mb-16 flex flex-col justify-center max-w-[615px] lg:max-w-[430px] xl:max-w-[520px] h-[200px]  pt-4 bg-neutral-800">
+                    <div>
+                        <h1 class="absolute -top-[42px] left-[1px] text-8xl font-bold text-slate-100">4</h1>
+                        <h1 class="absolute -top-[50px] left-1 text-8xl font-bold text-emerald-600">4</h1>
+                    </div>
+                    <div>
+                        <h1
+                            class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald-600 font-rubik tracking-widest">
+                            Robotik
+                        </h1>
+                        <h1
+                            class="absolute top-2 left-[73px]  text-4xl font-bold text-slate-50 font-rubik tracking-widest">
+                            Robotik
+                        </h1>
+                    </div>
+                    <p class="w-[90%] font-montserrat text-sm text-slate-100 pb-4">
+                        Disini kamu akan belajar tentang proses pra-produksi, teknik pengambilan gambar, hingga
+                        proses
+                        editing.</p>
+                    <div class="absolute p-2 bottom-3 right-10 bg-emerald-600 text-slate-50 font-roboto">Lihat
+                        selengkapnya</div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- End Division Section -->
+
+<!-- Start Contact Section -->
+<section class="pb-32">
+    <div class="container px-8">
+        <div class="text-center font-rubik text-3xl text-slate-100 font-bold">
+            Contact</div>
+        <div class="text-center font-montserrat text-sm text-slate-100 pt-4 pb-10">Tertarik masuk ICT? ayo isi
+            formulir
+            dengan
+            detail dibawah ini!</div>
+        <form onSubmit={ketikaDiklik}>
+            <table class="w-full lg:w-8/12 lg:mx-auto">
+                <tr>
+                    <td class="text-xl text-slate-100">Nama</td>
+                </tr>
+                <tr>
+                    <td><input type="text"
+                            class="p-2 text-slate-100 bg-neutral-800 rounded-lg  w-full outline-none focus:ring-1 focus:ring-neutral-500 font-open mb-8">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-xl text-slate-100">Email</td>
+                </tr>
+                <tr>
+                    <td><input type="email"
+                            class="p-2 text-slate-100 bg-neutral-800 rounded-lg  w-full outline-none focus:ring-1 focus:ring-neutral-500 font-open mb-8">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-xl text-slate-100">Message</td>
+                </tr>
+                <tr>
+                    <td><textarea cols="30" rows="5"
+                            class="p-2 text-slate-100 bg-neutral-800 rounded-lg  w-full outline-none focus:ring-1 focus:ring-neutral-500 font-open mb-8"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit"
+                            class="cursor-pointer font-rubik py-2 px-4 text-xl bg-emerald-800 text-slate-300"
+                            value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</section>
+
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Kepala sekolah :Hoyadi Kurniawan, S.Pd.,
+    M.Si</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Pembina Ekskul : Rizki Zaki Saputra, S.Pd
+</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Pelatih : Robby Akbar</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Ketua : Yona Esha Putri</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Wakil Ketua : Ariyan Andryan Aryja</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Sekretaris 1 : Adi Adrianto</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Sekretaris 2 : Ahmad Fauzan Amarin</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Bendahara 1 : Della Putri Lestari</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Bendahara 2 : Ahmad Muzaky</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Divisi DKV : Ghiova Naura</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Divisi Photography : Muhammad Abizarrifa'i
+</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Divisi Programming : Muhammad Zaki Fathur
+    Rahman</li>
+<li class="font-montserrat text-slate-100 pb-1 text-sm">Divisi Robotik : - </li>
+<!-- End Contact Section -->
+
+<!-- emerald : #047857 
+    neutral-900 : #171717
+    neutral-800 : #262626
+    slate-100   : #f1f5f9
+    slate-400   : #94a3b8-->

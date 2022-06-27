@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT DuaCikbar - About</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Domine:wght@700&family=Lato&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans&family=Roboto&family=Rubik:ital,wght@0,400;0,600;0,700;1,400&family=Tiro+Devanagari+Hindi&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon (1).ico" type="image/x-icon">
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+    </script>
+</head>
+
+<body class="bg-slateMuda dark:bg-neutralTua">
+
+    <!-- Start Header -->
+    <header class="navbar-fixed">
+        <div class="navbar relative z-10">
+            <div class="container">
+                <div class="py-6 px-5 lg:px-14 flex justify-between">
+                    <a href="index.html">
+                        <span class="text-slateTua dark:text-slate-50 text-xl font-rubik font-bold">ict</span>
+                        <span class="text-emerald dark:text-emerald text-xl font-rubik font-bold">duacikbar</span>
+                    </a>
+                    <div id="hamburger"
+                        class="lg:hidden cursor-pointer w-[30px] h-[22px] flex flex-col justify-between">
+                        <div class="inline-block h-[3px] w-full rounded-full bg-slateTua dark:bg-slateMuda"></div>
+                        <div class="inline-block h-[3px] w-full rounded-full bg-slateTua dark:bg-slateMuda"></div>
+                        <div class="inline-block h-[3px] w-[70%] rounded-full bg-slateTua dark:bg-slateMuda self-end">
+                        </div>
+                    </div>
+                    <div class="hidden lg:flex w-1/2 lg:justify-between lg:items-center">
+                        <a href="index.html"
+                            class="text-slateTua dark:text-slateMuda hover:text-emerald dark:hover:text-emerald font-montserrat transition-all duration-300 ease-in">Beranda</a>
+                        <a href="about.html"
+                            class="text-slateTua dark:text-slateMuda hover:text-emerald dark:hover:text-emerald font-montserrat transition-all duration-300 ease-in">About</a>
+                        <a href="contact.html"
+                            class="text-slateTua dark:text-slateMuda hover:text-emerald dark:hover:text-emerald font-montserrat transition-all duration-300 ease-in">Contact</a>
+                        <span class="flex items-center ">
+                            <span class="pr-2 font-montserrat text-slateTua dark:text-slateMuda">Light</span>
+                            <input type="checkbox" class="hidden" id="dark-toggle">
+                            <label for="dark-toggle"
+                                class="cursor-pointer flex items-center h-5 w-10 rounded-xl bg-slateParuhbaya dark:bg-slateMuda p-1">
+                                <span
+                                    class="circle-toggle inline-block h-4 w-4 bg-white rounded-full transition-all duration-200 ease-in-out"></span>
+                            </label>
+                            <span class="pl-2 font-montserrat text-slateTua dark:text-slateMuda">Dark</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="navmenu" class="lg:hidden navmenu-naik bg-slateMuda navbar transition-all duration-500 ease-in-out">
+            <a href="index.html"
+                class="navlist lg:inline block text-center text-slateTua dark:text-slateMuda dark:hover:text-emerald hover:text-emerald font-montserrat py-3 transition-all duration-200 ease-in border-b-[1px] border-slate-300 dark:border-zinc-900">Beranda</a>
+            <a href="about.html"
+                class="navlist lg:inline block text-center text-slateTua dark:text-slateMuda dark:hover:text-emerald hover:text-emerald font-montserrat py-3 transition-all duration-200 ease-in border-b-[1px] border-slate-300 dark:border-zinc-900">About</a>
+            <a href="contact.html"
+                class="navlist lg:inline block text-center text-slateTua dark:text-slateMuda dark:hover:text-emerald hover:text-emerald font-montserrat py-3 transition-all duration-200 ease-in border-b-[1px] border-slate-300 dark:border-zinc-900">Contact</a>
+            <span class="flex items-center py-3">
+                <div class="flex mx-auto">
+                    <span class="pr-2 font-montserrat text-slateTua dark:text-slateMuda">Light</span>
+                    <input type="checkbox" class="hidden" id="dark-toggle-2" />
+                    <label for="dark-toggle-2"
+                        class="cursor-pointer flex items-center h-5 w-10 rounded-xl bg-slateParuhbaya dark:bg-neutralMuda p-1">
+                        <span
+                            class="circle-toggle inline-block h-4 w-4 bg-white rounded-full transition-all duration-200 ease-in-out"></span>
+                    </label>
+                    <span class="pl-2 text-montserrat text-slateTua dark:text-slateMuda">Dark</span>
+                </div>
+            </span>
+        </div>
+    </header>
+    <!-- Start Header -->
+
+    <section id="home" class="pb-32 pt-48">
+        <div class="container">
+            <div class="px-5 lg:px-14 lg:flex lg:flex-wrap lg:flex-row-reverse">
+                <div class="lg:w-1/2 lg:pl-10">
+                    <div class="text-3xl font-rubik text-slateTua dark:text-slateMuda font-extrabold">About ICT</div>
+                    <div class="pb-28">
+                        <p class="text-sm text-slateTua dark:text-slateMuda pt-4 font-montserrat leading-6">
+                            ICT club SMKN 2 Cikarang Barat kini sudah memasuki angkatan ke 16. Pada semester 2007-2008
+                            hadirlah ICT club SMKN 2 Cikarang Barat yang merupakan penggabungan dari ekskul Linux dan
+                            Cinema
+                            dan yang menjadi ketua pertama adalah Rezki Elbachtiar. Ketua ICT pada tahun ini adalah Yona
+                            Esha Putri
+                    </div>
+                </div>
+                <div class="lg:w-1/2 ">
+                    <div
+                        class="relative flex justify-center w-full h-[340px]  pt-4 bg-slateParuhbaya dark:bg-neutralMuda ">
+                        <img class="absolute -top-20 sm:scale-110" src="dist/img/vr-removebgg.png" alt="">
+                        <div class="absolute bottom-0 w-[90%] sm:w-[80%] h-[60px] flex justify-center">
+                            <span
+                                class="absolute -top-[30px] left-0 inline-block px-5 py-2 md:text-6xl md:top-[10px]md:left-6 font-rubik text-5xl font-bold bg-slateMuda dark:bg-neutralTua text-slateTua dark:text-slateMuda lg:text-4xl md:left-7 md:-top-[50px] lg:-top-[10px] lg:left-5 xl:left-7 xl:text-5xl xl:-top-[30px]">Miss</span>
+                            <div
+                                class="absolute left-8 -bottom-[30px] px-4 py-2 font-rubik text-5xl md:text-6xl md:-bottom-[30px] md:left-14 xl:text-5xl lg:text-4xl lg:-bottom-[30px] lg:left-16 font-bold bg-slateMuda dark:bg-neutralTua text-emerald dark:text-emerald">
+                                The Futures</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Start About Section -->
+
+    <!-- Start Division Section -->
+    <section class="pb-32">
+        <div class="container ">
+            <div class="w-full px-5 lg:px-14 lg:flex lg:justify-center  lg:flex-col">
+                <div class="text-center text-bold text-3xl font-bold text-slateTua dark:text-slateMuda">
+                    Pilih divisimu sekarang!
+                </div>
+                <div
+                    class="pb-16 text-center lg:w-1/2 lg:self-center text-sm font-montserrat text-slateTua dark:text-slateMuda pt-4">
+                    Di
+                    ICT
+                    SMKN 2 Cikarang
+                    Barat ada
+                    4
+                    divisi
+                    yang
+                    akan
+                    meningkatkan
+                    produktivitas
+                    mu di bidang technology</div>
+                <div class="lg:flex lg:justify-between">
+                    <div
+                        class="relative mb-12 pl-10 flex justify-self-center flex-col justify-center w-full lg:w-[420px] xl:w-[550px] h-[200px]  pt-4 bg-slateParuhbaya dark:bg-neutralMuda ">
+                        <div>
+                            <h1
+                                class="absolute -top-[42px] left-[1px] text-8xl font-bold text-emerald dark:text-slateMuda number-card-shadow dark:number-card-shadow-dark">
+                                1</h1>
+                        </div>
+                        <div>
+                            <h1
+                                class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald dark:text-slateMuda font-rubik tracking-widest name-card-shadow dark:name-card-shadow-dark">
+                                Desain Grafis
+                            </h1>
+                        </div>
+                        <p class="w-[90%] font-montserrat text-sm text-slateTua dark:text-slateMuda pb-4">
+                            Disini kamu belajar
+                            tentang konsep, bentuk
+                            dan
+                            komposisi
+                            suatu karya komunikasi visual
+                            berupa gambar, garis maupun element grafis lainnya.</p>
+                        <a href="contact.html"
+                            class="absolute p-2 bottom-3 right-10 bg-emerald dark:bg-emerald text-slateMuda dark:bg-text-slateMuda font-roboto tracking-widest px-4">
+                            Daftar
+                        </a>
+                    </div>
+                    <div
+                        class="relative pl-10 mb-12 flex flex-col justify-center w-full lg:w-[420px] xl:w-[550px] h-[200px]  pt-4 bg-slateParuhbaya dark:bg-neutralMuda ">
+                        <div>
+                            <h1
+                                class="absolute -top-[42px] left-[1px] text-8xl font-bold text-emerald dark:text-slateMuda number-card-shadow dark:number-card-shadow-dark">
+                                2</h1>
+                        </div>
+                        <div>
+                            <h1
+                                class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald dark:text-slateMuda font-rubik tracking-widest name-card-shadow dark:name-card-shadow-dark">
+                                Photography
+                            </h1>
+                        </div>
+                        <p class="w-[90%] font-montserrat text-sm text-slateTua dark:text-slateMuda pb-4">
+                            Disini kamu belajar tentang
+                            fundamental design dan berkenalan dengan setting aperture, shutter
+                            speed, fokus, serta berbagai hal operasional lain.</p>
+                        <a href="contact.html"
+                            class="absolute p-2 bottom-3 right-10 bg-emerald dark:bg-emerald text-slateMuda dark:bg-text-slateMuda font-roboto tracking-widest px-4">
+                            Daftar
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:flex lg:justify-between">
+                    <div
+                        class="relative pl-10 mb-16 flex flex-col justify-center w-full lg:w-[420px] xl:w-[550px] h-[200px]  pt-4 bg-slateParuhbaya dark:bg-neutralMuda ">
+                        <div>
+                            <h1
+                                class="absolute -top-[42px] left-[1px] text-8xl font-bold text-emerald dark:text-slateMuda number-card-shadow dark:number-card-shadow-dark">
+                                3</h1>
+                        </div>
+                        <div>
+                            <h1
+                                class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald dark:text-slateMuda font-rubik tracking-widest name-card-shadow dark:name-card-shadow-dark">
+                                Programming
+                            </h1>
+                        </div>
+                        <p class="w-[90%] font-montserrat text-sm text-slateTua dark:text-slateMuda pb-4">
+                            Disini kamu belajar tentang
+                            pemrograman dasar untuk pemula dan dilanjut dengan belajar tentang web programming</p>
+                        <a href="contact.html"
+                            class="absolute p-2 bottom-3 right-10 bg-emerald dark:bg-emerald text-slateMuda dark:bg-text-slateMuda font-roboto tracking-widest px-4">
+                            Daftar
+                        </a>
+                    </div>
+                    <div
+                        class="relative pl-10 mb-16 flex flex-col justify-center w-full lg:w-[420px] xl:w-[550px] h-[200px]  pt-4 bg-slateParuhbaya dark:bg-neutralMuda ">
+                        <div>
+                            <h1
+                                class="absolute -top-[42px] left-[1px] text-8xl font-bold text-emerald dark:text-slateMuda number-card-shadow dark:number-card-shadow-dark">
+                                4</h1>
+                        </div>
+                        <div>
+                            <h1
+                                class="absolute top-[9px] left-[70px]  text-4xl font-bold text-emerald dark:text-slateMuda font-rubik tracking-widest name-card-shadow dark:name-card-shadow-dark">
+                                Robotik
+                            </h1>
+                        </div>
+                        <p class="w-[90%] font-montserrat text-sm text-slateTua dark:text-slateMuda pb-4">
+                            Disini kamu belajar tentang proses pra-produksi, teknik pengambilan gambar, hingga
+                            proses
+                            editing.</p>
+                        <a href="contact.html"
+                            class="absolute p-2 bottom-3 right-10 bg-emerald dark:bg-emerald text-slateMuda dark:bg-text-slateMuda font-roboto tracking-widest px-4">
+                            Daftar
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- End Division Section -->
+
+    <!-- Start Struktur Organisasi Section -->
+    <section class="pb-32">
+        <div class="container">
+            <div class="px-5 lg:px-14">
+                <div class="bg-slateParuhbaya dark:bg-neutralMuda  max-w-max mx-auto  p-3 lg:p-5">
+                    <h1
+                        class="font-rubik text-4xl font-bold text-emerald dark:text-slateMuda tracking-widest struktur-organisasi-shadow dark:struktur-organisasi-shadow-dark pb-4 text-center">
+                        STRUKTUR ORGANISASI</h1>
+                    <div class="max-w-max mx-auto">
+                        <table class="">
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Kepala Sekolah</td>
+                                <td>: Hoyadi Kurniawan, S.Pd. M.Si </td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Pembina Ekstrakulikuler</td>
+                                <td>: Rizki Zaki Saputra, S.Pd</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Pelatih</td>
+                                <td>: Robby Akbar</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Ketua</td>
+                                <td>: Yona Esha Putri</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Wakil Ketua</td>
+                                <td>: Ariyan Andryan Aryja</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Sekretaris 1</td>
+                                <td>: Adi Adrianto</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Sekretaris 2</td>
+                                <td>: Ahmad Fauzan Amarin</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Bendahara 1</td>
+                                <td>: Della Putri Lestari</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Bendahara 2</td>
+                                <td>: Ahmad Muzaky</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Divisi DKV</td>
+                                <td>: Ghiova Naura</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Divisi Photography</td>
+                                <td>: Muhammad Abizarrifa'i</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Divisi Programming</td>
+                                <td>: Muhammad Zaki Fathur</td>
+                            </tr>
+                            <tr class="text-slateTua dark:text-slateMuda font-montserrat text-sm">
+                                <td>Divisi Robotik</td>
+                                <td>: -</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Struktur Organisasi Section -->
+
+    <!-- Start Sejarah Logo ICT Section  -->
+    <section class="pb-32">
+        <div class="container">
+            <div class="px-5 lg:px-14 lg:flex">
+                <div class="lg:w-1/2">
+                    <div class="w-full">
+                        <img src="dist/img/ict profile.jpg" class="w-full" alt="Logo Profile ICT">
+                    </div>
+                </div>
+                <div class="lg:w-1/2 lg:pl-10">
+                    <div class="pt-4">
+                        <h1
+                            class="text-emerald dark:text-slateMuda font-rubik text-4xl font-bold logo-ict-shadow dark:logo-ict-shadow-dark tracking-widest">
+                            Logo
+                            ICT
+                            Club</h1>
+                    </div>
+                    <p class="text-slateTua dark:text-slateMuda text-sm font-montserrat leading-7 pt-4">Ini adalah logo
+                        ICT yang didesain
+                        pada
+                        2011,
+                        yang dibuat oleh Yoshida Elma. Dalam logo ini ditekankan
+                        bahwa ICT pada saat ini menguasai segala bidang. Saat ini ICT club dibina oleh Pak Rizki Zaki
+                        Saputra, sebelumnya ICT club pernah dibina oleh Pak Deswin Nendo, Pak Rahmat dan Pak Adam
+                        Puspabhuana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Sejarah Logo ICT Section  -->
+
+    <!-- Start Footer Section -->
+    <section class="bg-emeraldTua">
+        <div class="container">
+            <div
+                class="pt-20 bg-emerald-900 relative px-5 lg:px-14 pb-16 flex flex-col md:flex-row md:justify-between lg:justify-evenly">
+                <div class="pb-7">
+                    <div class="text-3xl font-rubik text-slate-300 font-bold pb-3">Navigate</div>
+                    <ul>
+                        <a class="text-slate-300 pb-1 block" href="index.html">Home</a>
+                        <a class="text-slate-300 pb-1 block" href="about.html">About</a>
+                        <a class="text-slate-300 pb-1 block" href="contact.html">Contact</a>
+                    </ul>
+                </div>
+                <div class="pb-7">
+                    <div class="text-3xl font-rubik text-slate-300 font-bold pb-3">Contact</div>
+                    <ul>
+                        <li class="pb-4 font-montserrat text-slate-300"><i
+                                class='text-slate-300 pr-3 text-2xl bx bxs-envelope'></i>info@ict.com</li>
+                        <li class="pb-4 font-montserrat text-slate-300"><i
+                                class='text-slate-300 pr-3 text-2xl bx bxs-location-plus'></i>Indonesia</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <div class="text-3xl font-rubik text-slate-300 font-bold pb-3">Social</div>
+                    <ul class="flex">
+                        <li class="group pr-4"><a href="https://www.instagram.com/_dzikrialan" target="_blank"><i
+                                    class='bx bxl-instagram text-slate-300 text-3xl p-[5px] rounded-full transition-all duration-500 ease-in-out '></i></a>
+                        </li>
+                        <li class="group pr-4"><a href="https://www.facebook.com/dzikrialan.ramadhan" target="_blank"><i
+                                    class='bx bxl-discord text-slate-300 text-3xl p-[5px] rounded-full transition-all duration-500 ease-in-out '></i></a>
+                        </li>
+                        <li class="group pr-4"><a href="www.instagram.com"><i
+                                    class='bx bxl-youtube text-slate-300 text-3xl p-[5px] rounded-full transition-all duration-500 ease-in-out '></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer Section -->
+
+    <!-- Start ToTop Section -->
+    <div class="fixed bottom-3 right-0 w-full">
+        <div class="container">
+            <div class="w-full px-5 lg:px-14 flex justify-end">
+                <a id="to-Top" href="#home"
+                    class="w-12 h-12 bg-emerald rounded-full hidden justify-center items-center">
+                    <i class='bx bx-up-arrow-alt text-slateMuda text-3xl'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End ToTop Section -->
+
+    <script src="dist/script/script.js"></script>
+</body>
+
+</html>
